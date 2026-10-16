@@ -1,0 +1,25 @@
+{
+  "name": "embedded-cpp-toolkit",
+  "version": "1.0.0",
+  "description": "Header-only C++17 building blocks for firmware: state machine, observable values, weekly schedules, JSON validation, debouncing and timers",
+  "keywords": ["esp32", "state-machine", "scheduler", "json", "validation", "debounce", "embedded"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PATEmbedded/embedded-cpp-toolkit.git"
+  },
+  "authors": [
+    {
+      "name": "Pourya Afshintabar",
+      "url": "https://github.com/PATEmbedded",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PATEmbedded/embedded-cpp-toolkit",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "headers": ["embedded_cpp_toolkit.h"],
+  "export": {
+    "exclude": ["test", ".github", "examples/*/.pio"]
+  }
+}

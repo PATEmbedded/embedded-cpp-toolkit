@@ -1,0 +1,5 @@
+version: "1.0.0"
+description: "Header-only C++17 building blocks for firmware: state machine, observable values, weekly schedules, JSON validation"
+url: "https://github.com/PATEmbedded/embedded-cpp-toolkit"
+dependencies:
+  idf: ">=4.4"
