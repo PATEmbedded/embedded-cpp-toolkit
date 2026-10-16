@@ -1,0 +1,13 @@
+# CMake and ESP-IDF build output
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# PlatformIO
+.pio/
+
+# Editors
+.vscode/
+.idea/
