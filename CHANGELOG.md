@@ -2,7 +2,7 @@
 
 ## 1.0.0 (2026-10-16)
 
-First release. It brings together and rewrites the earlier `EventVariable`, `Traffic-Light-state-machine`, `PAT_IntervalMap` and `dataValidator` code.
+First release.
 
 - `state_machine`: table-driven and non-blocking, with guards, actions and per-state timeouts
 - `observable`: change notification with old and new values, optional mutex, locked read-modify-write
